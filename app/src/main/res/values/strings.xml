@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Random String Generator</string>
+    <string name="string_length">Enter length of string</string>
+    <string name="generate_random_string">Generate Random String</string>
+    <string name="generated_strings">Generated Strings</string>
+    <string name="delete_all">Delete All</string>
 </resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="?attr/selectableItemBackground">
+
+    <!-- Random String Value -->
+    <TextView
+        android:id="@+id/textViewValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Random String"
+        android:textAppearance="?attr/textAppearanceBody1"
+        android:textColor="?android:attr/textColorPrimary"
+        android:paddingBottom="4dp"
+        android:ellipsize="end"
+        android:maxLines="3" />
+
+    <!-- Length of the String -->
+    <TextView
+        android:id="@+id/textViewLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Length: 0"
+        android:textAppearance="?attr/textAppearanceBody2"
+        android:textColor="?android:attr/textColorSecondary"
+        android:paddingBottom="4dp" />
+
+    <!-- Creation Timestamp -->
+    <TextView
+        android:id="@+id/textViewCreated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created: YYYY-MM-DD HH:MM:SS"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="?android:attr/textColorSecondary" />
+
+    <ImageView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_delete"/>
+
+</LinearLayout>
